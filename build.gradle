@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'com.google.guava:guava:18.0'
+
+	testCompile 'com.google.guava:guava-testlib:18.0'
+	testCompile 'junit:junit:4.11'
+}
